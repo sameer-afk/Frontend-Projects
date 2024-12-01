@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width : 50%;
+    margin : auto;
+    margin-top: 20px;
+}
+
+ /* testimonials */
+.testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5%;
+}
+
+.comment_style {
+    font-family: 'Roboto', 'Open Sans', Arial, sans-serif;
+    
+}
+
+.dark {
+    color: #fefefe;
+    background-color: #1e1e1e;
+}
+
+/* border-styles */
+.border_1 {
+    padding : 8px;
+    border-radius: 20px;
+}
+
+.border_2 {
+    padding : 8px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.border_img {
+    border-radius: 20px;
+}
+
+/* testimonial-1 */
+.testimonial-1 {
+    grid-area: 1 / 1 / 2 / 2 ;
+    position : relative;
+}
+
+.comment_1 {
+    width : 70%;
+}
+
+/* testimonial-1 -- image */
+.img-1 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: -10px center ; 
+}
+
+/* testimonial-2 */
+.testimonial-2 {
+    grid-area: 1 / 2 / 2 / 3 ;
+}
+
+/* testimonial-2 -- image */
+.img-2 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0px 0px ; 
+}
+
+/* testimonial-1,2 */
+.img-align {
+    display: flex;
+    align-content: center;
+    gap : 5%;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.details p {
+    margin:0;
+}
+
+/* testimonial-3 */
+.testimonial-3 {
+    grid-area: 2 / 1 / 3 / 3;
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: stretch;
+    gap: 4%
+}
+
+/* testimonial-3 -- img */
+.img-3 {
+    position : relative;
+    width: 60%; 
+    height: 100%; 
+    overflow: hidden;
+}
+
+.img-3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0px 0px;
+}
+
+/* testimonial-3 -- content */
+.comment_3 {
+    margin: 0;
+    width : 800px;
+}
+
+/* testimonial-4 */
+.testimonial-4 {
+    grid-area: 3 / 1 / 4 / 3 ;
+    position: relative;
+}
+
+.testimonial-4 p {
+    position : relative;
+}
