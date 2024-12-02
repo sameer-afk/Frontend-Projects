@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    border: 2px solid black;
+    width : 50%;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+nav ul {
+    display : flex;
+    gap : 3%;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.tab_1 {
+    border-bottom: 2px solid black;
+    opacity: 1;
+}
+
+.tab_2 {
+    border-bottom: 0;
+    opacity: 0.5;
+}
+
+.tab_3 {
+    border-bottom: 0;
+    opacity: 0.5;
+}
+
+.tab_4 {
+    border-bottom: 0;
+    opacity: 0.5;
+}
+
+
