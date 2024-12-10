@@ -1,0 +1,12 @@
+.passage {
+    z-index: -1;
+    position: relative;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
