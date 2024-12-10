@@ -7,84 +7,122 @@
     <meta name="keywords" content="FrontendDeveloper ,HTML ,CSS ,React ,Python">
     <meta name="author" content="MD.Sameer">
     <title>Testimonial Cards</title>
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
 
 </head>
 <body>
-    <main class="testimonials">
-
+    <header>
+        <h1>
+            Testimonials
+        </h1>
+    </header>
+    <main>
         <section class="testimonial-1">
-            <p class="comment_style dark border_1 comment_1">
+            <blockquote>
                 I have been solving all the project
                 ideas on roadmap.sh and I am
                 surprised how far I have come from
-                where I started. <br><br>
+                where I started.<br><br>
                 Highly recommended!
-            </p>
-            <div class="img-align">
-                <div class="img-1">
-                    <img src="person-1.jpg" alt="person-1" />
-                </div>
-                <div class="details">
-                    <p class="name">
+            </blockquote>
+            <div class="role">
+                <figure class="arrow">
+                    <img src="person-1.jpg" 
+                         alt="person-1"
+                         width="512px"
+                         height="512px"
+                    />
+                </figure>
+                <div>
+                    <p>
                         Artem Jones
                     </p>
-                    <p class="role">
-                        Junior Frontend Developer
+                    <p>
+                        Junior FrontendDeveloper
                     </p>
                 </div>
             </div>
         </section>
-
-        <section class="testimonial-2 border_2">
-            <p class=" comment_style comment_2">
+        <section class="testimonial-2">
+            <blockquote>
                 Since starting my career in 2021, I
                 have only followed one resource,
                 roadmap.sh, it truly helped me go
-                from 0 to having a job and changing
+                from O to having a job and changing
                 the financial trajectory of my family
-            </p>
-            <div class="img-align">
-                <div class="img-2">
-                    <img src="person-2.jpg" alt="person-2" />
-                </div>
-                <div class="details">
-                    <p class="name">
+            </blockquote>
+            <div class="role">
+                <figure>
+                    <img src="person-2.jpg"
+                         alt="person-2"
+                         width="512px"
+                         height="512px"
+                    />
+                </figure>
+                <div>
+                    <p>
                         Artem Jones
                     </p>
-                    <p class="role">
-                        Junior Frontend Developer
+                    <p>
+                        Junior FrontendDeveloper
                     </p>
                 </div>
             </div>
         </section>
-
         <section class="testimonial-3">
-            <div class="img-3 border_img">
-                <img src="Person-3.jpg" alt="Person-3" />
-            </div>
-            <p class="comment_style dark border_1 comment_3">
-                <span>
-                    Jakie mackle
-                </span>
+            <figure>
+                <img src="Person-3.jpg"
+                     alt="Person-3"
+                     width="640px"
+                     height="640px"
+                />
+            </figure>
+            <blockquote>
                 <br>
-                <span >
-                    Manager
-                </span>
-                <br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span><br><br>
+                <span>Mackle</span> <br>
+                <span>Manager</span> <br>
                 I find myself recommending roadmap.sh to all
                 the internees or junior developers. It's a great
                 way to skill up and grow in your career.
-            </p>
+            </blockquote>
         </section>
-
-        <section class="testimonial-4 border_2">
-            <p class="comment_style comment_4">
+        <section class="testimonial-4">
+            <blockquote>
                 roadmap.sh is an incredible resource. I was fortunate to discover it
                 during my university days in 2018. Back then, it was just a single
                 repository with three images. It's amazing to see how much impact it
                 has had on millions of lives since then.
-            </p>
+            </blockquote>
+            <div>
+                <figure class="image-1">
+                    <img src="person-1.jpg" 
+                         alt="person-1"
+                         width="512px"
+                         height="512px"
+                    />
+                </figure>
+                <figure class="image-2">
+                    <img src="Person-3.jpg"
+                         alt="Person-3"
+                         width="640px"
+                         height="640px"
+                    />
+                </figure>
+                <figure class="image-3">
+                    <img src="person-2.jpg"
+                         alt="person-2"
+                         width="512px"
+                         height="512px"
+                    />
+                </figure>
+            </div>
         </section>
     </main>
 </body>
