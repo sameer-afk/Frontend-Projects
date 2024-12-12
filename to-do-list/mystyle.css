@@ -1,0 +1,102 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* IMG */
+img {
+    display: block;
+}
+
+/* VARIABLES */
+:root {
+    /* HEADER */
+    --HEADER-FIG-WIDTH : 5em;
+    --HEADER-FONT-FAMILY:  "Comic Sans MS";
+    /* FORM + LIST */
+    --FORM-WIDTH : 18em;
+}
+
+/* || BODY */
+.body__container__1 {
+    background-color: #a49bd2;
+    border : 2px solid black;
+    min-height: 100vh;
+}
+
+.body__container__2 {
+    border: 2px solid black;
+    border-radius: 2em;
+    margin: 5rem;
+    background: #f1f5f8;
+}
+
+/* || HEADER */
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__container h1 {
+    font-family: var(--HEADER-FONT-FAMILY);
+}
+
+.header__figure {
+    width : var(--HEADER-FIG-WIDTH);
+}
+
+.header__figure img {
+    width : 100%;
+    height : auto;
+}
+
+/* || MAIN */
+.main__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 2rem;
+}
+
+/* FORM */
+.main__form {
+    width : var(--FORM-WIDTH);
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    border-bottom: 2px dashed red;
+}
+
+.button {
+    width : 1.8em;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+}
+
+.button img {
+    width : 100%;
+    height : auto;
+}
+
+/* MAIN__LIST */
+.ul li {
+    width : var(--FORM-WIDTH);
+    font-family: var(--HEADER-FONT-FAMILY);
+    margin-bottom: 0.5em;
+}
+
+.ul li:hover {
+    text-decoration: line-through red;
+
+}
+
